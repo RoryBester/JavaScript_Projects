@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>json string method</title>
+    </head>
+    <body>
+        <p id="myDog"></p>
+
+        <script>
+            var dog = {name: "jem", breed: "german shepperd", color: "black/tan"};
+
+            var JSONstring = JSON.stringify(dog);
+            document.getElementById("myDog") .innerHTML = JSONstring;
+        </script>
+    </body>
+
+</html>

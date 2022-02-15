@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>JSON parse method</title>
+    </head>
+    <body>
+        <p id="myDog"></p>
+        
+
+        <script>
+
+            var dog = '{"name": "Jem", "breed": "german shepperd", "color": "black/tan"}';
+
+            var JSONstring = JSON.parse(dog);
+            document.getElementById("myDog").innerHTML = JSONstring.name + " the " +
+            JSONstring.breed;
+        </script>
+    </body>
+</html>

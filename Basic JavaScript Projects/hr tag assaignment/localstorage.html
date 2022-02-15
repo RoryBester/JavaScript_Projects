@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>locale storage</title>
+    </head>
+    <body>
+        <p id="myDog"></p>
+
+        <script>
+            localeStorage.setItem("Name", "Jem");
+
+            document.getElementById("myDog") .innerHTML = localStorage.getItem("Name");
+        </script>
+    </body>
+
+</html>
