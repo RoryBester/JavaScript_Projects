@@ -2,32 +2,36 @@
   
 ajax
 
-calculator 
+calculator
 
-hr tag assaignment 
+hr tag assignment
 
-j0Query
+jQuery
 
-pizaa_project
+pizza_project
 
-Projec1
- 
-project2  
- 
-project3
+Project 1
 
-project4
+Project 2
 
-project7
+Project 3
 
-project8
+Project 4
 
-project9
+Project 5 
 
-project10
+Project 6
+
+Project 7
+
+Project 8
+
+Project 9
 
 react_projects
 
-tic tact toe
+tic tac toe
 
 todo-app
+
+Project
